@@ -1,0 +1,116 @@
+    /*Resets*/
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body{
+        font-family: poppins;
+        background: rgba(128, 0, 128, 0.275);
+    }
+    
+    
+    img{
+        width: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        color: green;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    h3, h4{
+        font-weight: 100;
+        margin: 10px;
+    }
+
+    button{
+        border: none;
+        background: blue;
+        color: white;
+        padding: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 2px;
+        box-shadow: 1px 5px 10px  blue;
+    }
+
+    button:hover{
+        background: green;
+        color: white;
+        transition: 0.5s ease-in-out;
+        box-shadow: 1px 5px 10px  green;
+    }
+    
+    .fa-shopping-cart{
+        color: green;
+    }
+    
+    /*header section*/
+    
+    .logo_container{
+        width: 20%;
+    }
+
+    
+    /*navigation bar*/
+    #navigation_container{
+        padding: 5px;
+        align-items: center;
+    }
+    
+    .logoandhome{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .first_nav{
+        font-size: 20px;
+        text-align: center;
+
+    }
+    
+    .home, .about, .blog, .shop{
+        color: blue;
+        margin: 15px;
+    }
+    
+
+    /*purcahse section*/
+    #main-div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    #boys-shop, #girls-shop{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .boys-shop-img{
+        width: 40%;
+    }
+
+    .girls-shop-img{
+        width: 75%;
+    }
+
+/*footer section*/
+#second_footer{
+    padding: 90px;
+}
+
+.footer_details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+

@@ -1,0 +1,331 @@
+    /*Resets*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: poppins;
+}
+
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+    transition: 1s ease-out;
+}
+
+h6{
+   font-size: 20px;
+   color: #00aacc;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+input{
+    outline: none;
+}
+/*header section*/
+
+
+.logo_container{
+    width: 20%;
+}
+
+.search_input{
+    border: none;
+    color: gray;
+    outline: none;
+    padding: 5px;
+    margin: 0px;
+    background: none;
+    border-bottom: 1px solid gray;
+}
+
+#search_button{
+    border: none;
+    color: blue;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    background: none;
+}
+
+/*navigation bar*/
+#navigation_container{
+    background: #e1bee7;
+    padding: 5px;
+    align-items: center;
+}
+
+.logoandhome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first_nav{
+    font-size: 20px;
+    text-align: center;
+}
+
+.secondandsearchnav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.home, .about, .blog, .shop{
+    color: blue;
+    margin: 15px;
+}
+
+#contacts, #tc, #cart, #products{
+    margin: 20px;
+}
+
+#cart{
+    color: green;
+}
+
+#help{
+    color: gray;
+}
+
+#contacts{
+    color: blue;
+}
+
+/*caruseol section-*/
+.carousel-inner{
+  height: 40vh;
+  align-items: center;
+}
+
+.carousel-inner-boys{
+    width: 50%;
+    overflow: hidden;
+}
+
+
+/*products section*/
+#products-container{
+    background-color: #e1bee770;
+
+}
+.our_products_title{
+    color: rgb(100, 91, 91);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.more1{
+    padding: 5px;
+    width: 10%;
+    border: 1px solid green;
+    color: green;
+}
+
+.more1:hover{
+    color: white;
+    border: 1px solid green;
+    background: green;
+    transition: 1s ease-out;
+}
+
+.more{
+    padding: 5px;
+    width: 10%;
+    border: 1px solid purple;
+    color: purple;
+}
+
+.more:hover{
+    color: white;
+    border: 1px solid purple;
+    background: purple;
+    transition: 1s ease-out;
+}
+
+.boys_container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.boy_image{
+    width: 20%;
+}
+
+.boys_products{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+
+.bp{
+    width: 15%;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+
+
+#hr_container{
+    text-align: center;
+}
+
+.girls_container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 20px;
+}
+
+.girl_container_image{
+    width: 60%;
+    margin-right: 80px;
+}
+
+.girls_products{
+    display: flex;
+    width: 50%;
+    margin: 30px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    font-family: monospace;   
+}
+
+#submit{
+    border: none;
+    background:#00aacc;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    margin-bottom: 40px;
+}
+
+/*first_form*/
+#first_name, #second_name, #email{
+    width: 65%;
+    padding: 3px;
+    
+}
+
+/*news_letter section*/
+#news_letter_section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: red;
+    float: right;
+    margin-right: 20px;
+}
+
+.news_input{
+    padding: 4px;
+    outline: none;
+}
+
+.news_button{
+    background: #00aacc;
+    padding: 5px;
+    width: 17%;
+    border: 1px solid #00aacc;
+    color: white;
+}
+
+/*send message container*/
+.send_message_container{
+    color: black;
+    margin-top: 40px;
+}
+
+
+/*footer section*/
+#footer_container{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    padding: 30px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#second_footer{
+    margin: 0px;
+}
+
+.footer_details{
+    display: flex;
+    justify-content: space-evenly
+}
+
+#scroll_up{
+    color: black;
+    font-size: 40px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+#scroll_down{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+
+
+
+@media screen and (max-width : 800px) {
+  
+    .first_nav{
+        font-size: 15px;
+    }
+
+    .second_nav{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    #header_container{
+        font-size: 8px;
+    }
+
+    .search_input{
+        width: 82%;
+    }
+
+    ::placeholder{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    #contacts, #tc, #cart, #products{
+        margin: 10px;
+    }
+
+
+}
