@@ -9,10 +9,14 @@ $servername='localhost';
 $username='root';
 $password='';
 $dbname = "kid_store";
+$conn=mysqli_connect($servername,$username,$password,"$dbname");
+  if(!$conn){
+      die('Could not Connect MySql Server:' .mysql_error());
+    }
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
 
-  
+
+
 
          $sql = "INSERT INTO user_tb (first_name,second_name,email)
          VALUES ('$first_name','$second_name','$email')";
